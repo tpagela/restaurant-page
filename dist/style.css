@@ -7,16 +7,6 @@ html, body, #content {
     height:100%;
 }
 
-#background {
-    background-image: url("./images/background.jpg");
-    display: flex;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-
-}
-
 #header {
     display:flex;
     background-color: #391110;
@@ -25,6 +15,8 @@ html, body, #content {
     color: whitesmoke;
     justify-content: space-evenly;
     align-items: center;
+    font-family: fireFont;
+    font-size:48px;
 
 }
 
@@ -40,3 +32,31 @@ ul:hover {
     cursor:pointer
 
 }
+
+#background {
+    background-image: url("./images/background.jpg");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#backgroundText {
+    word-spacing:100vw;
+    font-family: fireFont;
+    font-size:28px;
+    color:white;
+    grid-column: 2 / 3;
+    font-size:128px;
+    margin-top:8vh;
+
+
+
+}
+
+@font-face {
+    font-family: fireFont;
+    src: url(./fonts/FireBrathers-PersonalUse.otf);
+}
+
