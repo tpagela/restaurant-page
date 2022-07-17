@@ -51,8 +51,6 @@ ul:hover {
     font-size:128px;
     margin-top:8vh;
 
-
-
 }
 
 @font-face {
@@ -60,3 +58,12 @@ ul:hover {
     src: url(./fonts/FireBrathers-PersonalUse.otf);
 }
 
+#subText {
+    margin-top:250px;
+    margin-right:280px;
+    font-family: fireFont;
+    font-size:64px;
+    color:white;
+
+
+}
